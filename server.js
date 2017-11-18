@@ -1,7 +1,7 @@
 // set up ======================================================================
 var express = require('express');
 var app = express(); 						// create our app w/ express
-var mongoose = require('postgre'); 				// mongoose for mongodb
+var mongoose = require('pg'); 				// mongoose for mongodb
 var port = process.env.PORT || 8080; 				// set the port
 var database = require('./config/database'); 			// load the database config
 var morgan = require('morgan');
